@@ -168,7 +168,7 @@ BUPPLE POP ELECTRIC is a custom template created by MEADOW for MITZI's use only.
   background:rgba(var(--white));
   padding:35px 35px 40px 35px;
   border-radius:25px;
-  text-align:justify;
+  text-align:left-aligned;
 }
 
 .bpe-body b {
