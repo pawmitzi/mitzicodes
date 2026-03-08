@@ -1,7 +1,7 @@
 /*************************************
 BUPPLE POP ELECTRIC is a custom template created by MEADOW for MITZI's use only.
 *************************************/
-
+  
 .bpe-wrap {
   position:relative;
   margin:112px auto 25px;
@@ -13,12 +13,25 @@ BUPPLE POP ELECTRIC is a custom template created by MEADOW for MITZI's use only.
   font-size:15.5px;
   line-height:22px;
   background:rgba(var(--c1));
-  background:linear-gradient(to bottom, rgba(var(--c1)) 50%, rgba(var(--c2)));
+  background:linear-gradient(to bottom, rgba(var(--c1)) 25%, rgba(var(--c2)));
   color:rgba(var(--black));
   
   --black:72,72,72;
   --white:243,243,243;
   --gray:231,231,231;
+}
+
+.bpe-wrap:before {
+  content:'';
+  display:block;
+  position:absolute;
+  top:150px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background:linear-gradient(to top, rgba(var(--c2)) 10%, rgba(var(--c1), 0));
+  overflow:hidden;
+  border-radius:0px 0px 30px 30px;
 }
 
 .bpe-icon {
