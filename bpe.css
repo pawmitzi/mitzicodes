@@ -328,7 +328,13 @@ Give each character a new ID name, i.e. peter, wendy, etc. and choose RGBA versi
 At the top of the template, next to <div class="bpe-wrap">, you'll see "id=default". Change "default" to the character name to change colors.
 ********************************/
 
-#default {
-  --c1: 161,190,174;
-  --c2: 163,190,161;
+#liam {
+  --c1: 60,90,106;
+  --c2: 100,151,177;
 }
+
+#nadia {
+  --c1: 206, 132, 173; 
+  --c2: 217, 156, 190; }
+
+
